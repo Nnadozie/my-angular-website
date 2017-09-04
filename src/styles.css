@@ -1,1 +1,17 @@
-/* You can add global styles to this file, and also import other style files */
+@import './app/vendor/semantic.min.css';
+
+.ui.grid>.void.row,.ui.grid>.row>.void.column {
+  background-color:#0E0B16!important;
+  color:#FFF
+}
+#small-header {
+  font-size: 200%;
+  margin: 0 0 0.1em;
+}
+#medium-header {
+  font-size: 500%;
+  margin: 0 0 0.1em;
+}
+#extra-margin {
+  margin-top: 2em;
+}

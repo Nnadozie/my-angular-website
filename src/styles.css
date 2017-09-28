@@ -4,14 +4,118 @@
   background-color:#0E0B16!important;
   color:#FFF
 }
-#small-header {
+@media only screen and (max-width:767px) {
+  .no-pad {
+    padding: 0rem!important
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+   .res-p{
+    font-size: 70%!important
+  }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1200px) {
+   .res-p{
+    font-size: 80%
+  }
+}
+.test {
+  display: flex
+}
+
+.small-header {
   font-size: 200%;
-  margin: 0 0 0.1em;
+  padding-bottom: 0.1em
 }
-#medium-header {
+.medium-header {
+  font-size: 350%
+}
+.large-header {
   font-size: 500%;
-  margin: 0 0 0.1em;
+  padding-bottom: 0.1em
 }
-#extra-margin {
-  margin-top: 2em;
+.xmedium-header {
+  font-size: 130%
+}
+.small-below {
+  padding-bottom: 1em
+}
+.margin-below {
+  padding-bottom: 2em
+}
+.large-below {
+  padding-bottom: 5em
+}
+.xlarge-below {
+  padding-bottom: 7em
+}
+.small-margin {
+  padding-top: 0.5em
+}
+.medium-margin {
+  padding-top: 1em
+}
+.large-margin {
+  padding-top: 2em
+}
+.xlarge-margin {
+  padding-top: 4em
+}
+.xxlarge-margin {
+  padding-top: 7em
+}
+p {
+  color: #FFF;
+  /*margin-bottom: 0*/
+}
+hr {
+  /*width: 20vh;*/
+  /*-webkit-margin-before: 0;
+  -webkit-margin-afer:0*/
+}
+.shorten {
+  width: 70%
+}
+.void {
+  color: #0E0B16;
+  border-color: #0E0B16
+}
+.cookie {
+  color: #5C6db2;
+  border-color: #5c6db2
+}
+.jewel {
+  color: #4717F6;
+  border-color: #4717F6
+}
+.fuschia {
+  color: #A239CA;
+  border-color: #A239CA
+}
+.no-img-padding {
+  padding-left: 0rem;
+  padding-right: 0rem;
+  padding: 0rem!important
+}
+.shadow {
+  box-shadow: 0 5px 15px 0px #A239CA
+}
+.no-ver-pad {
+  padding-top: 0px!important;
+  padding-bottom: 0px!important
+}
+.no-hori-pad {
+  padding-left: 0px!important;
+  padding-right: 0px!important
+}
+.caption {
+  font-size: 70%;
+  color: #F4F5F6
+}
+.card-image {
+  background-color: #4717F6;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 5%;
+  padding-bottom: 5%
 }

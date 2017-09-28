@@ -38,11 +38,14 @@
 
 /** IE10 and IE11 requires the following to support `@angular/animation`. */
 // import 'web-animations-js';  // Run `npm install --save web-animations-js`.
-
-
+import 'angular-polyfills/dist/all.js';
+//import 'angular-polyfills/dist/classlist.js';
+//import 'angular-polyfills/dist/webanimations.js';
+//import 'angular-polyfills/dist/shim.js';
+//import 'angular-polyfills/dist/intl.js';
 /** Evergreen browsers require these. **/
-import 'core-js/es6/reflect';
-import 'core-js/es7/reflect';
+//import 'core-js/es6/reflect';
+//import 'core-js/es7/reflect';
 
 
 /** ALL Firefox browsers require the following to support `@angular/animation`. **/

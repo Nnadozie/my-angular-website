@@ -8,6 +8,7 @@ import { WelcomePageComponent } from './welcome-page/welcome-page.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { MySystemComponent } from './my-system/my-system.component';
 import { ContactMeComponent } from './contact-me/contact-me.component';
+import { WorkExperienceComponent } from './work-experience/work-experience.component';
 /*import { HelloWorldComponent } from './hello-world/hello-world.component';
 import { UserItemComponent } from './user-item/user-item.component';
 import { UserListComponent } from './user-list/user-list.component';
@@ -20,7 +21,8 @@ import { ArticleComponent } from './article/article.component';
     WelcomePageComponent,
     ProjectsComponent,
     MySystemComponent,
-    ContactMeComponent
+    ContactMeComponent,
+    WorkExperienceComponent
   ],
   imports: [
     BrowserModule,

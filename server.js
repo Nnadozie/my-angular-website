@@ -4,14 +4,14 @@ const http = require('http');
 
 const app = express();
 
-app.use(compression(express.static('dist')));
-//app.use(compression(express.static('dist/assets')));
+app.use(compression())
+app.use(express.static('dist'));
 
 app.get('/', (req, res) => {
   res.sendFile(index.html);
 })
 
-const port = process.env.PORT || '3001';
+const port = process.env.PORT || '8080';
 app.set('port', port);
 
 const server = http.createServer(app);

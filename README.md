@@ -1,4 +1,6 @@
 # A personal website
+This template can be easily modified if you know basic html or css. More support for easier modification coming later.
+
 To run locally:
 
 Need Node.js, typescript and angular cli

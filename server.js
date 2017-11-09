@@ -1,14 +1,15 @@
 const compression = require('compression');
 const express = require('express');
 const http = require('http');
+var path = require('path');
 
 const app = express();
 
 app.use(compression())
 app.use(express.static('dist'));
 
-app.get('/', (req, res) => {
-  res.sendFile(index.html);
+app.get(['/', '/home', '/collection'], (req, res) => {
+  res.sendFile('index.html', { root: path.join(__dirname, '/dist') });
 })
 
 const port = process.env.PORT || '8080';

@@ -3,7 +3,14 @@ This template can be easily modified if you know basic html or css. More support
 
 To run locally:
 
-Need Node.js, typescript and angular cli
+Need:
+- Node 6.9.0 or higher
+- `npm -v` to see version
+- typescript 2.1 or greater
+- `npm install -g typescript`
+- and angular-cli
+- `npm install -g @angular/cli@1.0.0`
+- use `ng --version` to check it's been installed
 
 - clone `git clone https://github.com/Nnadozie/my-angular-website.git`
 - Navigate to project directory `cd my-angular-website`

@@ -5,7 +5,7 @@ To run locally:
 
 Need:
 - Node 6.9.0 or higher
-- `npm -v` to see version
+- `node -v` to see version
 - typescript 2.1 or greater
 - `npm install -g typescript`
 - and angular-cli

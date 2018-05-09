@@ -17,5 +17,6 @@ Need:
 - install node packages `npm install`
 - Run without building `ng serve`
 - Run after building `ng build --env=prod` then run `node server.js`
-
+- Follow [these instructions](https://cloud.google.com/community/tutorials/run-expressjs-on-google-app-engine) to deploy
+- Follow [these instructions](https://cloud.google.com/appengine/docs/standard/python/mapping-custom-domains) to configure the dns
 

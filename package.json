@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
+    "now-build": "ng build --env=prod",
     "ng": "ng",
     "start": "node server.js",
     "build": "ng build",

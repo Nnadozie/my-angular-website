@@ -13,6 +13,7 @@ import { ViewPdfComponent } from './view-pdf/view-pdf.component';
 import { PdfViewerModule } from 'ng2-pdf-viewer';
 import { RouterModule, Routes } from '@angular/router';
 import { OmniPageComponent } from './omni-page/omni-page.component';
+import { MyCvComponent } from './my-cv/my-cv.component';
 
 /*import { HelloWorldComponent } from './hello-world/hello-world.component';
 import { UserItemComponent } from './user-item/user-item.component';
@@ -23,7 +24,9 @@ const routes: Routes = [
   // basic routes
 { path: '', redirectTo: 'home', pathMatch: 'full' },
 { path: 'home', component: OmniPageComponent },
-{ path: 'collection', component: ViewPdfComponent }
+{ path: 'collection', component: ViewPdfComponent },
+{ path: 'cv', component: MyCvComponent },
+
 ];
 @NgModule({
   declarations: [
@@ -35,6 +38,7 @@ const routes: Routes = [
     WorkExperienceComponent,
     ViewPdfComponent,
     OmniPageComponent,
+    MyCvComponent,
   ],
   imports: [
     BrowserModule,

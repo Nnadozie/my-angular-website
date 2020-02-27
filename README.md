@@ -20,3 +20,5 @@ Need:
 - Follow [these instructions](https://cloud.google.com/community/tutorials/run-expressjs-on-google-app-engine) to deploy
 - Follow [these instructions](https://cloud.google.com/appengine/docs/standard/python/mapping-custom-domains) to configure the dns
 
+**now hosted on zeit
+
